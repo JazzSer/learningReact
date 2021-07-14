@@ -1,0 +1,26 @@
+.card{
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 0 24px 2px rgba(0,0,0);
+    background:#A5A58D;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.5)
+}
+.card__title{
+    font-weight:800;
+    font-size: 1.5rem;
+}
+
+.card__image{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__image__img{
+    border-radius:50%;
+}

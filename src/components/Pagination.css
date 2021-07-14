@@ -1,0 +1,9 @@
+.pagination{
+    width: 100px;
+    background: #75A13D;
+    cursor: pointer;
+}
+
+.pagination:hover{
+    background: #55801D;
+}

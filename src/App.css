@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.App{
+  display: flex;
+  padding: 4 rem;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow:hidden;
+  background-color:#6B705C;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+.cards-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+button{
+  margin: 20px auto;
+  color: blanchedalmond;
+  background-color: #DDBEA9;
+  padding: 10px;
+  font-size: 10px;
+  
+}
+
+button:hover{
+  background: #CB997E;
+  
+}
